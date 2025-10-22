@@ -1,12 +1,14 @@
-* ---------------------------------------
-* SafeTensors Converter Script - Usage
-* ---------------------------------------
+# ---------------------------------------
+# SafeTensors Converter
+# ---------------------------------------
 
-* Install requirements.txt from CLI
-  pip install -r requirements.txt
+Converts PyTorch model files (`.pt` / `.pth`) to the safer `.safetensors` format.
 
-* Navigate to your project directory
-  cd /path/to/your/project
+---
 
-* Run the converter script
-  python pt2st.py <pth file/folder> <target directory>
+## ⚡ Requirements
+
+* **Install required Python packages**
+
+```bash
+pip install -r requirements.txt
