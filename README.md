@@ -12,3 +12,12 @@ Converts PyTorch model files (`.pt` / `.pth`) to the safer `.safetensors` format
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Navigate to your project
+
+## run cli in the given form
+
+```bash
+python pt2st.py <pth file/folder> <target directory>
+```
